@@ -6,8 +6,11 @@ speed and battery level. Furthermore, each vehicle at the startup publish a desc
 information associated to its unique identification, manufacturer and model. An external consumer subscribe to receive
 both telemetry and description messages from all the available vehicles.
 
+Reference MQTT Python Library Paho - https://github.com/eclipse/paho.mqtt.python
+Paho-MQTT Version for the Lab: **1.6.1**
+
 The project use the Python Libray Paho that can be installed with the following command: 
 
 ```bash
-pip install paho-mqtt
+pip install paho-mqtt==1.6.1
 ```
